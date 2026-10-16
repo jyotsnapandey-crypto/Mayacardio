@@ -1,0 +1,6 @@
+# Runtime
+flask>=3.0
+requests>=2.31
+waitress>=3.0        # production WSGI server for the cloud side (falls back to Flask's dev server if missing)
+# Tests
+pytest>=8.0
